@@ -1,0 +1,110 @@
+@import "colors";
+
+.btn {
+    &-auto {
+        &-primary-1 {
+            background: $accent-2 !important;
+            color: $neutral-3 !important;
+            padding: 0.5rem 1.25rem !important;
+            border-radius: 12px !important;
+            -webkit-border-radius: 12px !important;
+            -moz-border-radius: 12px !important;
+            -ms-border-radius: 12px !important;
+            -o-border-radius: 12px !important;
+            // &:hover {
+            //     background: #e39821 !important;
+            //     color: $white-one !important;
+            // }
+        }
+
+        &-primary-2 {
+            background: $brand-4 !important;
+            color: $neutral-1 !important;
+            padding: 0.5rem 1.25rem !important;
+            border-radius: 12px !important;
+            -webkit-border-radius: 12px !important;
+            -moz-border-radius: 12px !important;
+            -ms-border-radius: 12px !important;
+            -o-border-radius: 12px !important;
+            &:hover {
+                background: #0072d9 !important;
+            }
+        }
+
+        &-secondary-1 {
+            background: transparent !important;
+            color: $neutral-3 !important;
+            border: 1px solid $neutral-3 !important;
+            padding: 0.5rem 1rem !important;
+            border-radius: 12px !important;
+            -webkit-border-radius: 12px !important;
+            -moz-border-radius: 12px !important;
+            -ms-border-radius: 12px !important;
+            -o-border-radius: 12px !important;
+            &:hover {
+                background: $accent-2 !important;
+                transition: all ease-in 0.5s !important;
+                -webkit-transition: all ease-in 0.5s !important;
+                -moz-transition: all ease-in 0.5s !important;
+                -ms-transition: all ease-in 0.5s !important;
+                -o-transition: all ease-in 0.5s !important;
+            }
+        }
+
+        &-secondary-2 {
+            background: transparent !important;
+            color: $brand-4 !important;
+            border: 1px solid $brand-4 !important;
+            padding: 0.25rem 1.25rem !important;
+            border-radius: 12px !important;
+            -webkit-border-radius: 12px !important;
+            -moz-border-radius: 12px !important;
+            -ms-border-radius: 12px !important;
+            -o-border-radius: 12px !important;
+
+            &:hover {
+                background: $brand-4 !important;
+                color: $white-one !important;
+                transition: all ease-in 0.25s;
+                -webkit-transition: all ease-in 0.25s;
+                -moz-transition: all ease-in 0.25s;
+                -ms-transition: all ease-in 0.25s;
+                -o-transition: all ease-in 0.25s;
+            }
+        }
+    }
+}
+
+.btn-purple {
+    color: $white-one !important;
+    background-color: $base-purple !important;
+    border-color: $base-purple !important;
+    border-radius: 0.75rem;
+    -webkit-border-radius: 0.75rem;
+    -moz-border-radius: 0.75rem;
+    -ms-border-radius: 0.75rem;
+    -o-border-radius: 0.75rem;
+}
+
+.btn-orange {
+    color: $white-one !important;
+    background-color: $base-orange !important;
+    border-color: $base-orange !important;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.btn-gold {
+    color: $white-one !important;
+    background-color: $base-gold !important;
+    border-color: $base-gold !important;
+    padding: 0.85rem 1rem;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
